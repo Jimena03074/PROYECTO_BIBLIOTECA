@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>479</width>
+    <height>516</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pbAgregar_Li">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>190</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Dubai Medium</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	background-color:rgb(205, 187, 227);
+	border-radius:10px;
+	border:10px;
+}
+
+
+
+QPushButton:hover{
+background-color: rgb(170, 255, 127);
+	border-radius:10px;
+	border: 10px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>AGREGAR</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../imagenes/AGREGARM.png</normaloff>../imagenes/AGREGARM.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbConsultar_Li">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>320</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Dubai Medium</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	background-color:rgb(205, 187, 227);
+	border-radius:10px;
+	border:10px;
+}
+
+
+QPushButton:hover{
+background-color: rgb(170, 255, 127);
+	border-radius:10px;
+	border: 10px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>CONSULTAR</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../imagenes/CONSULTAR.png</normaloff>../imagenes/CONSULTAR.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbActualizar_Li">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>260</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Dubai Medium</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	background-color:rgb(205, 187, 227);
+	border-radius:10px;
+	border:10px;
+}
+
+
+
+QPushButton:hover{
+background-color: rgb(170, 255, 127);
+	border-radius:10px;
+	border: 10px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>ACTUALIZAR</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../imagenes/ACTUALIZAR.png</normaloff>../imagenes/ACTUALIZAR.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbEliminar_Li">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>390</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Dubai Medium</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	background-color:rgb(205, 187, 227);
+	border-radius:10px;
+	border:10px;
+}
+
+
+QPushButton:hover{
+background-color: rgb(170, 255, 127);
+	border-radius:10px;
+	border: 10px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>ELIMINAR</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../imagenes/ELIMINAR.png</normaloff>../imagenes/ELIMINAR.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>34</width>
+      <height>35</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>100</y>
+      <width>141</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe MDL2 Assets</family>
+      <pointsize>38</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Libros</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbMenuG">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>460</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Dubai Medium</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	background-color:rgb(205, 187, 227);
+	border-radius:10px;
+	border:10px;
+}
+
+
+QPushButton:hover{
+background-color: rgb(170, 255, 127);
+	border-radius:10px;
+	border: 10px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>MENÚ</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../imagenes/icono_home.png</normaloff>../imagenes/icono_home.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>200</y>
+      <width>251</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagenes/libros.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>491</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagenes/Logo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>pbAgregar_Li</zorder>
+   <zorder>pbActualizar_Li</zorder>
+   <zorder>pbConsultar_Li</zorder>
+   <zorder>pbEliminar_Li</zorder>
+   <zorder>label</zorder>
+   <zorder>pbMenuG</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_2</zorder>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>pbAgregar_Li</tabstop>
+  <tabstop>pbEliminar_Li</tabstop>
+  <tabstop>pbConsultar_Li</tabstop>
+  <tabstop>pbActualizar_Li</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

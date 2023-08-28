@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>366</width>
+    <height>458</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pbAcceder_alumno">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>400</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Dubai Medium</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	background-color:rgb(205, 187, 227);
+	background-color: rgb(160, 146, 177);
+	border-radius:10px;
+	border:10px;
+}
+
+
+QPushButton:hover{
+background-color: rgb(170, 255, 127);
+	border-radius:10px;
+	border: 10px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>ACCEDER</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../imagenes/icono_home.png</normaloff>../imagenes/icono_home.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>311</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagenes/Logo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>331</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string extracomment="PASSWORD"/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagenes/login alumno.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Usuario">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>290</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::PreventContextMenu</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	
+	background-color: rgba(255, 255, 255, 150);
+border: .3px solid
+}
+</string>
+    </property>
+    <property name="text">
+     <string notr="true" extracomment="PASSWORD"/>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="placeholderText">
+     <string>USUARIO</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_login">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>340</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+background-color: rgba(255, 255, 255, 150);
+border: .3px solid
+}
+</string>
+    </property>
+    <property name="text">
+     <string notr="true"/>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>LOGUIN</string>
+    </property>
+   </widget>
+   <zorder>label_3</zorder>
+   <zorder>pbAcceder_alumno</zorder>
+   <zorder>label_2</zorder>
+   <zorder>lineEdit_Usuario</zorder>
+   <zorder>lineEdit_login</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

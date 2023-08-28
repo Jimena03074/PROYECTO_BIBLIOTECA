@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>479</width>
+    <height>516</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pbAlumnos">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Dubai Medium</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	background-color:rgb(205, 187, 227);
+	border-radius:10px;
+	border:10px;
+}
+
+
+
+QPushButton:hover{
+background-color: rgb(170, 255, 127);
+	border-radius:10px;
+	border: 10px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Alumnos</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../imagenes/AGREGARM.png</normaloff>../imagenes/AGREGARM.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbAcervos">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>260</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Dubai Medium</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	background-color:rgb(205, 187, 227);
+	border-radius:10px;
+	border:10px;
+}
+
+
+QPushButton:hover{
+background-color: rgb(170, 255, 127);
+	border-radius:10px;
+	border: 10px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Acervos</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../imagenes/CONSULTAR.png</normaloff>../imagenes/CONSULTAR.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbLibros">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>390</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Dubai Medium</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	background-color:rgb(205, 187, 227);
+	border-radius:10px;
+	border:10px;
+}
+
+
+
+QPushButton:hover{
+background-color: rgb(170, 255, 127);
+	border-radius:10px;
+	border: 10px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Libros</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../imagenes/ACTUALIZAR.png</normaloff>../imagenes/ACTUALIZAR.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbPrestamos">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>390</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Dubai Medium</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	background-color:rgb(205, 187, 227);
+	border-radius:10px;
+	border:10px;
+}
+
+
+QPushButton:hover{
+background-color: rgb(170, 255, 127);
+	border-radius:10px;
+	border: 10px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Prestamos</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../imagenes/ELIMINAR.png</normaloff>../imagenes/ELIMINAR.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>34</width>
+      <height>35</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>110</y>
+      <width>431</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe MDL2 Assets</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Bienvenido a la pagina principal</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbSalir">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>460</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Dubai Medium</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	background-color:rgb(205, 187, 227);
+	border-radius:10px;
+	border:10px;
+}
+
+
+QPushButton:hover{
+background-color: rgb(170, 255, 127);
+	border-radius:10px;
+	border: 10px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>SALIR</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../imagenes/icono_home.png</normaloff>../imagenes/icono_home.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>491</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagenes/Logo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>160</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe MDL2 Assets</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagenes/alumnos.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>160</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe MDL2 Assets</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagenes/acervo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>300</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe MDL2 Assets</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagenes/libros.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>290</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe MDL2 Assets</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagenes/prestamos.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label_6</zorder>
+   <zorder>label_5</zorder>
+   <zorder>pbAlumnos</zorder>
+   <zorder>pbLibros</zorder>
+   <zorder>pbAcervos</zorder>
+   <zorder>pbPrestamos</zorder>
+   <zorder>label</zorder>
+   <zorder>pbSalir</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>pbAlumnos</tabstop>
+  <tabstop>pbPrestamos</tabstop>
+  <tabstop>pbAcervos</tabstop>
+  <tabstop>pbLibros</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
